@@ -1,0 +1,74 @@
+.list{
+    text-align: center;
+    background-color: rgb(78, 78, 247);
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+.td1{
+    background-color: white;
+}
+
+table > tbody > tr{
+    position: relative;
+    text-align: center;
+}
+
+table > tbody > tr > td{
+    font-weight: 500;
+}
+
+.update:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}
+
+thead{
+    position: relative;
+    text-align: center;
+}
+
+.button1{
+    border-radius: 10px;
+    position: relative;
+    width: 190px;
+    height: 50px;
+    background-color: rgb(233, 152, 59);
+    color: white;
+    border: none;
+    outline: width 0; 
+}
+
+.logoutbtn{
+    position: absolute;
+    top: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    outline-width: 0;
+    outline: none;
+    border: none;
+    right: 0;
+}
+
+.user{
+    position: absolute;
+    top: 15px;
+    background-color: transparent;
+    color: white;
+    outline-width: 0;
+    border: none;
+    text-align: end;
+    font-weight: 700;
+    padding: 0;
+    left: 70%;
+    margin-left: 20px;
+
+}
+

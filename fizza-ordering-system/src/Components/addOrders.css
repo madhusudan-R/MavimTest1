@@ -1,0 +1,86 @@
+.row{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    outline-width: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 250ms;
+}
+.btn1:hover{
+    background: white;
+    border: 1px;
+    color: black;
+    transition: 250ms;
+}
+
+
+.email{
+    outline-width: 0;
+}
+
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: fill;
+}
+
+.img-fluid{
+    height: 100%;
+}
+
+.title{
+    position:absolute;
+    top:28px;
+    left: 150px;
+}
+
+.name1{
+    font-size: 30px;
+    color: white;
+}
+
+.name2{
+    font-size: 30px;
+    top: 20px;
+    color: white;
+    bottom: 18px;
+    position: relative;
+    left: 50px;
+}
+
+.form-row > p {
+    color: red;
+}
+
+.successbtn{
+    background-color: rgba(9, 212, 26, 0.87);
+    color: white;
+    outline-width: 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+    letter-spacing: 1.5;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.successbtn:hover{
+    background: rgb(39, 199, 39);
+}
+
+.successTXT{
+    color: rgba(50, 214, 50, 0.904);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
